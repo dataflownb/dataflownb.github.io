@@ -9,5 +9,5 @@ Dataflow notebooks are Jupyter notebooks written in Python that use a modified k
 
 Projects:
 
-* [dfkernel](github.com/dataflownb/dfkernel): a Jupyter kernel that provides dataflow features
-* [dfconvert](github.com/dataflownb/dfconvert): a script to transform ipynb files created using the dataflow kernel to a standard python notebook
+* [dfkernel](https://github.com/dataflownb/dfkernel): a Jupyter kernel that provides dataflow features
+* [dfconvert](https://github.com/dataflownb/dfconvert): a script to transform ipynb files created using the dataflow kernel to a standard python notebook
