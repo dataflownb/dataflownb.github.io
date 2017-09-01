@@ -9,7 +9,7 @@ Dataflow notebooks are Jupyter notebooks written in Python that use a modified k
 
 Video:
 
-* [![Dataflow Notebook Video](http://img.youtube.com/vi/lAfywCbp7qU/0.jpg)](http://www.youtube.com/watch?v=lAfywCbp7qU)
+[![Dataflow Notebook Video](http://img.youtube.com/vi/lAfywCbp7qU/0.jpg)](http://www.youtube.com/watch?v=lAfywCbp7qU)
 
 Projects:
 
