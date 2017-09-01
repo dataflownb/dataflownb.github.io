@@ -7,6 +7,10 @@ Dataflow notebooks are Jupyter notebooks written in Python that use a modified k
 * Intermediate outputs are both viewable via the rich Jupyter output formats and usable in later cells
 * Dataflow notebooks can be converted to standard python notebooks 
 
+Video:
+
+* [![Dataflow Notebook Video](http://img.youtube.com/vi/lAfywCbp7qU/0.jpg)](http://www.youtube.com/watch?v=lAfywCbp7qU)
+
 Projects:
 
 * [dfkernel](https://github.com/dataflownb/dfkernel): a Jupyter kernel that provides dataflow features
