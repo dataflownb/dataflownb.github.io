@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 473.53 485.32" style="enable-background:new 0 0 473.53 485.32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#303F9F;}
+	.st1{font-family:'Courier';}
+	.st2{font-size:11.2067px;}
+	.st3{fill:#F7F7F7;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#CFCFCF;}
+	.st5{fill:#008000;}
+	.st6{font-family:'Courier-Bold';}
+	.st7{fill:#333333;}
+	.st8{fill:#0000FF;}
+	.st9{fill:#666666;}
+	.st10{fill:#BA2121;}
+	.st11{fill:none;}
+	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:none;}
+	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:#F7F7F7;}
+	.st14{fill:#D84315;}
+	.st15{fill:#F5F5F5;}
+	.st16{font-family:'HelveticaNeue-Medium';}
+	.st17{font-size:9.6058px;}
+	.st18{font-family:'HelveticaNeue';}
+	.st19{font-size:8.8053px;}
+	.st20{fill:#33429A;}
+	.st21{fill-rule:evenodd;clip-rule:evenodd;fill:#F6F7F7;}
+	.st22{fill-rule:evenodd;clip-rule:evenodd;fill:#CECECE;}
+	.st23{fill:#676767;}
+	.st24{fill:#D64527;}
+	.st25{fill:#F4F5F5;}
+</style>
+<text transform="matrix(1 0 0 1 5 21.0098)" class="st0 st1 st2">In [d51f8eab]:</text>
+<path class="st3" d="M467.96,23.81v16.42c0,0.88-0.51,1.59-1.14,1.59H105.49c-0.63,0-1.14-0.71-1.14-1.59V7.39
+	c0-0.88,0.51-1.59,1.14-1.59h361.33c0.63,0,1.14,0.71,1.14,1.59V23.81z"/>
+<path class="st4" d="M467.96,23.81v17.21c0,0.44-0.25,0.8-0.57,0.8h-362.7c-0.31,0-0.57-0.36-0.57-0.8V6.6c0-0.44,0.25-0.8,0.57-0.8
+	h362.7c0.31,0,0.57,0.36,0.57,0.8V23.81z M468.53,23.81v17.22c0,0.88-0.51,1.59-1.14,1.59h-362.7c-0.63,0-1.14-0.71-1.14-1.59V6.59
+	c0-0.88,0.51-1.59,1.14-1.59h362.7c0.63,0,1.14,0.71,1.14,1.59V23.81z"/>
+<text transform="matrix(1 0 0 1 108.9077 20.6089)" class="st5 st6 st2">import</text>
+<text transform="matrix(1 0 0 1 149.2588 20.6089)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 155.9839 20.6089)" class="st8 st6 st2">pandas</text>
+<text transform="matrix(1 0 0 1 196.3344 20.6089)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 203.0595 20.6089)" class="st5 st6 st2">as</text>
+<text transform="matrix(1 0 0 1 216.5102 20.6089)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 223.2353 20.6089)" class="st8 st6 st2">pd</text>
+<text transform="matrix(1 0 0 1 108.9077 34.2173)" class="st7 st1 st2">df</text>
+<text transform="matrix(1 0 0 1 122.3584 34.2173)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 129.0835 34.2173)" class="st9 st1 st2">=</text>
+<text transform="matrix(1 0 0 1 135.8086 34.2173)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 142.5337 34.2173)" class="st7 st1 st2">pd</text>
+<text transform="matrix(1 0 0 1 155.9839 34.2173)" class="st9 st1 st2">.</text>
+<text transform="matrix(1 0 0 1 162.709 34.2173)" class="st7 st1 st2">read_csv</text>
+<text transform="matrix(1 0 0 1 216.5102 34.2173)" class="st7 st1 st2">(</text>
+<text transform="matrix(1 0 0 1 223.2353 34.2173)" class="st10 st1 st2">&apos;guardian-top100-female-2019.csv&apos;</text>
+<text transform="matrix(1 0 0 1 445.1645 34.2173)" class="st7 st1 st2">)</text>
+<rect x="108.74" y="10.2" class="st11" width="359.22" height="27.22"/>
+<path class="st12" d="M467.96,23.81v12.01c0,0.88-0.51,1.6-1.14,1.6H109.88c-0.63,0-1.14-0.72-1.14-1.6V11.8
+	c0-0.88,0.51-1.6,1.14-1.6h356.93c0.63,0,1.14,0.72,1.14,1.6V23.81z"/>
+<text transform="matrix(1 0 0 1 31.9009 150.6871)" class="st0 st1 st2">In [full]:</text>
+<path class="st13" d="M467.96,146.69v9.62c0,0.88-0.51,1.59-1.14,1.59H105.49c-0.63,0-1.14-0.71-1.14-1.59v-19.23
+	c0-0.88,0.51-1.59,1.14-1.59h361.33c0.63,0,1.14,0.71,1.14,1.59V146.69z"/>
+<path class="st4" d="M467.96,146.69v10.41c0,0.44-0.25,0.8-0.57,0.8h-362.7c-0.31,0-0.57-0.36-0.57-0.8v-20.82
+	c0-0.44,0.25-0.8,0.57-0.8h362.7c0.31,0,0.57,0.36,0.57,0.8V146.69z M468.53,146.69v10.42c0,0.88-0.51,1.59-1.14,1.59h-362.7
+	c-0.63,0-1.14-0.71-1.14-1.59v-20.83c0-0.88,0.51-1.59,1.14-1.59h362.7c0.63,0,1.14,0.71,1.14,1.59V146.69z"/>
+<text transform="matrix(1 0 0 1 108.9077 150.2872)" class="st7 st1 st2">df</text>
+<text transform="matrix(1 0 0 1 122.3584 150.2872)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 129.0835 150.2872)" class="st9 st1 st2">=</text>
+<text transform="matrix(1 0 0 1 135.8086 150.2872)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 142.5337 150.2872)" class="st7 st1 st2">df</text>
+<text transform="matrix(1 0 0 1 155.9839 150.2872)" class="st9 st1 st2">.</text>
+<text transform="matrix(1 0 0 1 162.709 150.2872)" class="st7 st1 st2">rename</text>
+<text transform="matrix(1 0 0 1 203.0595 150.2872)" class="st7 st1 st2">(</text>
+<text transform="matrix(1 0 0 1 209.7851 150.2872)" class="st7 st1 st2">columns</text>
+<text transform="matrix(1 0 0 1 256.8608 150.2872)" class="st9 st1 st2">=</text>
+<text transform="matrix(1 0 0 1 263.5859 150.2872)" class="st7 st1 st2">{</text>
+<text transform="matrix(1 0 0 1 270.311 150.2872)" class="st10 st1 st2">&apos;Age on 1 Dec 2019&apos;</text>
+<text transform="matrix(1 0 0 1 398.0883 150.2872)" class="st7 st1 st2">:</text>
+<text transform="matrix(1 0 0 1 404.8139 150.2872)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 411.5395 150.2872)" class="st10 st1 st2">&apos;Age&apos;</text>
+<text transform="matrix(1 0 0 1 445.1645 150.2872)" class="st7 st1 st2">})</text>
+<rect x="108.76" y="139.88" class="st11" width="358.06" height="13.61"/>
+<path class="st12" d="M466.82,146.69v5.2c0,0.88-0.51,1.6-1.14,1.6H109.9c-0.63,0-1.14-0.72-1.14-1.6v-10.41
+	c0-0.88,0.51-1.6,1.14-1.6h355.79c0.63,0,1.14,0.72,1.14,1.6V146.69z"/>
+<text transform="matrix(1 0 0 1 78.9765 57.8316)" class="st14 st1 st2">df:</text>
+<rect x="103.55" y="61.83" class="st15" width="17.61" height="19.21"/>
+<rect x="121.17" y="61.83" class="st15" width="46.83" height="19.21"/>
+<rect x="167.99" y="61.83" class="st15" width="29.62" height="19.21"/>
+<rect x="197.61" y="61.83" class="st15" width="42.83" height="19.21"/>
+<rect x="240.44" y="61.83" class="st15" width="90.05" height="19.21"/>
+<rect x="330.49" y="61.83" class="st15" width="54.03" height="19.21"/>
+<rect x="103.55" y="99.86" class="st15" width="17.61" height="18.41"/>
+<rect x="121.17" y="99.86" class="st15" width="46.83" height="18.41"/>
+<rect x="167.99" y="99.86" class="st15" width="29.62" height="18.41"/>
+<rect x="197.61" y="99.86" class="st15" width="42.83" height="18.41"/>
+<rect x="240.44" y="99.86" class="st15" width="90.05" height="18.41"/>
+<rect x="330.49" y="99.86" class="st15" width="54.03" height="18.41"/>
+<rect x="330.49" y="61.43" width="54.03" height="0.8"/>
+<rect x="240.44" y="61.43" width="90.05" height="0.8"/>
+<rect x="197.61" y="61.43" width="42.83" height="0.8"/>
+<rect x="167.99" y="61.43" width="29.62" height="0.8"/>
+<rect x="121.17" y="61.43" width="46.83" height="0.8"/>
+<rect x="103.55" y="61.43" width="17.61" height="0.8"/>
+<rect x="330.49" y="61.43" width="54.03" height="0.8"/>
+<rect x="240.44" y="61.43" width="90.05" height="0.8"/>
+<rect x="197.61" y="61.43" width="42.83" height="0.8"/>
+<rect x="167.99" y="61.43" width="29.62" height="0.8"/>
+<rect x="121.17" y="61.43" width="46.83" height="0.8"/>
+<rect x="103.55" y="61.43" width="17.61" height="0.8"/>
+<rect x="103.55" y="42.62" class="st11" width="364.4" height="87.25"/>
+<text transform="matrix(1 0 0 1 138.6172 55.4302)" class="st16 st17">Name</text>
+<text transform="matrix(1 0 0 1 171.2964 55.4302)" class="st16 st17">Rank</text>
+<text transform="matrix(1 0 0 1 200.7827 55.4302)" class="st16 st17">Position</text>
+<text transform="matrix(1 0 0 1 243.6201 55.4302)" class="st16 st17">Age on 1 Dec 2019</text>
+<text transform="matrix(1 0 0 1 333.9917 55.4302)" class="st16 st17">Nationality</text>
+<text transform="matrix(1 0 0 1 112.3349 75.4424)" class="st16 st17">0</text>
+<text transform="matrix(1 0 0 1 124.3818 74.6417)" class="st18 st17">Sam Kerr</text>
+<text transform="matrix(1 0 0 1 188.7309 74.6417)" class="st18 st17">1</text>
+<text transform="matrix(1 0 0 1 201.5219 74.6417)"><tspan x="0" y="0" class="st18 st17">Forwa</tspan><tspan x="26.67" y="0" class="st18 st17">r</tspan><tspan x="29.69" y="0" class="st18 st17">d</tspan></text>
+<text transform="matrix(1 0 0 1 316.5952 74.6417)" class="st18 st17">26</text>
+<text transform="matrix(1 0 0 1 343.9712 74.6417)" class="st18 st17">Australia</text>
+<text transform="matrix(1 0 0 1 109.6645 93.8536)" class="st16 st17">...</text>
+<text transform="matrix(1 0 0 1 156.58 93.8536)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 186.0605 93.8536)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 228.8989 93.8536)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 319.2661 93.8536)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 373.1352 93.8536)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 106.9941 112.6646)" class="st16 st17">99</text>
+<text transform="matrix(1 0 0 1 130.5966 112.6646)" class="st18 st17">Ludmila</text>
+<text transform="matrix(1 0 0 1 178.0493 112.6646)" class="st18 st17">100</text>
+<text transform="matrix(1 0 0 1 201.5219 112.6646)"><tspan x="0" y="0" class="st18 st17">Forwa</tspan><tspan x="26.67" y="0" class="st18 st17">r</tspan><tspan x="29.69" y="0" class="st18 st17">d</tspan></text>
+<text transform="matrix(1 0 0 1 316.5952 112.6646)" class="st18 st17">25</text>
+<text transform="matrix(1 0 0 1 357.3335 112.6646)" class="st18 st17">Brazil</text>
+<text transform="matrix(1 0 0 1 103.6299 128.274)"><tspan x="0" y="0" class="st18 st19">100 </tspan><tspan x="17.14" y="0" class="st18 st19">r</tspan><tspan x="19.92" y="0" class="st18 st19">ows </tspan></text>
+<polygon points="144.35,126.04 142.75,124.45 143.17,124.03 144.77,125.61 146.35,124.03 146.78,124.45 145.19,126.04 
+	146.78,127.64 146.36,128.06 144.77,126.46 143.17,128.06 142.74,127.64 "/>
+<text xml:space="preserve" transform="matrix(1 0 0 1 147.4008 128.274)" class="st18 st19"> 5 columns</text>
+<rect x="103.55" y="42.62" class="st11" width="364.4" height="87.25"/>
+<text transform="matrix(1 0 0 1 78.9765 173.9014)" class="st14 st1 st2">df:</text>
+<rect x="103.55" y="177.9" class="st15" width="17.61" height="19.21"/>
+<rect x="121.17" y="177.9" class="st15" width="46.83" height="19.21"/>
+<rect x="167.99" y="177.9" class="st15" width="29.62" height="19.21"/>
+<rect x="197.61" y="177.9" class="st15" width="42.83" height="19.21"/>
+<rect x="240.44" y="177.9" class="st15" width="24.01" height="19.21"/>
+<rect x="264.45" y="177.9" class="st15" width="54.03" height="19.21"/>
+<rect x="103.55" y="215.53" class="st15" width="17.61" height="18.81"/>
+<rect x="121.17" y="215.53" class="st15" width="46.83" height="18.81"/>
+<rect x="167.99" y="215.53" class="st15" width="29.62" height="18.81"/>
+<rect x="197.61" y="215.53" class="st15" width="42.83" height="18.81"/>
+<rect x="240.44" y="215.53" class="st15" width="24.01" height="18.81"/>
+<rect x="264.45" y="215.53" class="st15" width="54.03" height="18.81"/>
+<rect x="264.45" y="177.5" width="54.03" height="0.8"/>
+<rect x="240.44" y="177.5" width="24.01" height="0.8"/>
+<rect x="197.61" y="177.5" width="42.83" height="0.8"/>
+<rect x="167.99" y="177.5" width="29.62" height="0.8"/>
+<rect x="121.17" y="177.5" width="46.83" height="0.8"/>
+<rect x="103.55" y="177.5" width="17.61" height="0.8"/>
+<rect x="264.45" y="177.5" width="54.03" height="0.8"/>
+<rect x="240.44" y="177.5" width="24.01" height="0.8"/>
+<rect x="197.61" y="177.5" width="42.83" height="0.8"/>
+<rect x="167.99" y="177.5" width="29.62" height="0.8"/>
+<rect x="121.17" y="177.5" width="46.83" height="0.8"/>
+<rect x="103.55" y="177.5" width="17.61" height="0.8"/>
+<rect x="103.55" y="158.69" class="st11" width="364.4" height="87.25"/>
+<text transform="matrix(1 0 0 1 138.6172 171.4996)" class="st16 st17">Name</text>
+<text transform="matrix(1 0 0 1 171.2964 171.4996)" class="st16 st17">Rank</text>
+<text transform="matrix(1 0 0 1 200.7827 171.4996)" class="st16 st17">Position</text>
+<text transform="matrix(1 0 0 1 243.6176 171.4996)" class="st16 st17">Age</text>
+<text transform="matrix(1 0 0 1 267.7768 171.4996)" class="st16 st17">Nationality</text>
+<text transform="matrix(1 0 0 1 112.3349 191.5123)" class="st16 st17">0</text>
+<text transform="matrix(1 0 0 1 124.3818 190.7115)" class="st18 st17">Sam Kerr</text>
+<text transform="matrix(1 0 0 1 188.7309 190.7115)" class="st18 st17">1</text>
+<text transform="matrix(1 0 0 1 201.5219 190.7115)"><tspan x="0" y="0" class="st18 st17">Forwa</tspan><tspan x="26.67" y="0" class="st18 st17">r</tspan><tspan x="29.69" y="0" class="st18 st17">d</tspan></text>
+<text transform="matrix(1 0 0 1 250.3803 190.7115)" class="st18 st17">26</text>
+<text transform="matrix(1 0 0 1 277.7568 190.7115)" class="st18 st17">Australia</text>
+<text transform="matrix(1 0 0 1 109.6645 209.9234)" class="st16 st17">...</text>
+<text transform="matrix(1 0 0 1 156.58 209.9234)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 186.0605 209.9234)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 228.8989 209.9234)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 253.0508 209.9234)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 306.9204 209.9234)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 106.9941 228.334)" class="st16 st17">99</text>
+<text transform="matrix(1 0 0 1 130.5966 228.334)" class="st18 st17">Ludmila</text>
+<text transform="matrix(1 0 0 1 178.0493 228.334)" class="st18 st17">100</text>
+<text transform="matrix(1 0 0 1 201.5219 228.334)"><tspan x="0" y="0" class="st18 st17">Forwa</tspan><tspan x="26.67" y="0" class="st18 st17">r</tspan><tspan x="29.69" y="0" class="st18 st17">d</tspan></text>
+<text transform="matrix(1 0 0 1 250.3803 228.334)" class="st18 st17">25</text>
+<text transform="matrix(1 0 0 1 291.1191 228.334)" class="st18 st17">Brazil</text>
+<text transform="matrix(1 0 0 1 103.6299 244.3433)"><tspan x="0" y="0" class="st18 st19">100 </tspan><tspan x="17.13" y="0" class="st18 st19">r</tspan><tspan x="19.92" y="0" class="st18 st19">ows </tspan></text>
+<polygon points="144.35,242.11 142.75,240.52 143.17,240.1 144.77,241.68 146.35,240.1 146.78,240.52 145.19,242.11 146.78,243.71 
+	146.36,244.13 144.77,242.53 143.17,244.13 142.74,243.71 "/>
+<text xml:space="preserve" transform="matrix(1 0 0 1 147.4008 244.3433)" class="st18 st19"> 5 columns</text>
+<rect x="103.55" y="158.69" class="st11" width="364.4" height="87.25"/>
+<text transform="matrix(1 0 0 1 18.4509 266.7572)" class="st20 st1 st2">In [over30]:</text>
+<path class="st21" d="M467.96,262.75v9.62c0,0.88-0.51,1.59-1.14,1.59H105.49c-0.63,0-1.14-0.71-1.14-1.59v-19.23
+	c0-0.88,0.51-1.59,1.14-1.59h361.33c0.63,0,1.14,0.71,1.14,1.59V262.75z"/>
+<path class="st22" d="M467.96,262.75v10.41c0,0.44-0.25,0.8-0.57,0.8h-362.7c-0.31,0-0.57-0.36-0.57-0.8v-20.82
+	c0-0.44,0.25-0.8,0.57-0.8h362.7c0.31,0,0.57,0.36,0.57,0.8V262.75z M468.53,262.75v10.42c0,0.88-0.51,1.59-1.14,1.59h-362.7
+	c-0.63,0-1.14-0.71-1.14-1.59v-20.83c0-0.88,0.51-1.59,1.14-1.59h362.7c0.63,0,1.14,0.71,1.14,1.59V262.75z"/>
+<text transform="matrix(1 0 0 1 108.9079 266.3568)" class="st7 st1 st2">df</text>
+<text transform="matrix(1 0 0 1 122.3586 266.3568)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 129.0837 266.3568)" class="st23 st1 st2">=</text>
+<text transform="matrix(1 0 0 1 135.8088 266.3568)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 142.5339 266.3568)" class="st7 st1 st2">df</text>
+<text transform="matrix(1 0 0 1 155.9841 266.3568)" class="st24 st1 st2">$</text>
+<text transform="matrix(1 0 0 1 162.7092 266.3568)" class="st24 st1 st2">full</text>
+<text transform="matrix(1 0 0 1 189.6096 266.3568)" class="st7 st1 st2">[</text>
+<text transform="matrix(1 0 0 1 196.3347 266.3568)" class="st7 st1 st2">df</text>
+<text transform="matrix(1 0 0 1 209.7854 266.3568)" class="st24 st1 st2">$</text>
+<text transform="matrix(1 0 0 1 216.5105 266.3568)" class="st24 st1 st2">full</text>
+<text transform="matrix(1 0 0 1 243.4109 266.3568)" class="st23 st1 st2">.</text>
+<text transform="matrix(1 0 0 1 250.136 266.3568)" class="st7 st1 st2">Age</text>
+<text transform="matrix(1 0 0 1 270.3112 266.3568)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 277.0363 266.3568)" class="st23 st1 st2">&gt;=</text>
+<text transform="matrix(1 0 0 1 290.4865 266.3568)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 297.2116 266.3568)" class="st23 st1 st2">31</text>
+<text transform="matrix(1 0 0 1 310.6628 266.3568)" class="st7 st1 st2">]</text>
+<rect x="108.76" y="255.95" class="st11" width="355.68" height="13.61"/>
+<path class="st12" d="M464.44,262.75v5.2c0,0.88-0.51,1.6-1.13,1.6H109.89c-0.62,0-1.13-0.72-1.13-1.6v-10.41
+	c0-0.88,0.51-1.6,1.13-1.6h353.42c0.62,0,1.13,0.72,1.13,1.6V262.75z"/>
+<text transform="matrix(1 0 0 1 11.7258 382.8265)" class="st20 st1 st2">In [under25]:</text>
+<path class="st21" d="M467.96,378.82v9.62c0,0.88-0.51,1.59-1.14,1.59H105.49c-0.63,0-1.14-0.71-1.14-1.59v-19.23
+	c0-0.88,0.51-1.59,1.14-1.59h361.33c0.63,0,1.14,0.71,1.14,1.59V378.82z"/>
+<path class="st22" d="M467.96,378.82v10.41c0,0.44-0.25,0.8-0.57,0.8h-362.7c-0.31,0-0.57-0.36-0.57-0.8v-20.82
+	c0-0.44,0.25-0.8,0.57-0.8h362.7c0.31,0,0.57,0.36,0.57,0.8V378.82z M468.53,378.82v10.42c0,0.88-0.51,1.59-1.14,1.59h-362.7
+	c-0.63,0-1.14-0.71-1.14-1.59v-20.83c0-0.88,0.51-1.59,1.14-1.59h362.7c0.63,0,1.14,0.71,1.14,1.59V378.82z"/>
+<text transform="matrix(1 0 0 1 108.9079 382.4271)" class="st7 st1 st2">df</text>
+<text transform="matrix(1 0 0 1 122.3586 382.4271)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 129.0837 382.4271)" class="st23 st1 st2">=</text>
+<text transform="matrix(1 0 0 1 135.8088 382.4271)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 142.5339 382.4271)" class="st7 st1 st2">df</text>
+<text transform="matrix(1 0 0 1 155.9841 382.4271)" class="st24 st1 st2">$</text>
+<text transform="matrix(1 0 0 1 162.7092 382.4271)" class="st24 st1 st2">full</text>
+<text transform="matrix(1 0 0 1 189.6096 382.4271)" class="st7 st1 st2">[</text>
+<text transform="matrix(1 0 0 1 196.3347 382.4271)" class="st7 st1 st2">df</text>
+<text transform="matrix(1 0 0 1 209.7854 382.4271)" class="st24 st1 st2">$</text>
+<text transform="matrix(1 0 0 1 216.5105 382.4271)" class="st24 st1 st2">full</text>
+<text transform="matrix(1 0 0 1 243.4109 382.4271)" class="st23 st1 st2">.</text>
+<text transform="matrix(1 0 0 1 250.136 382.4271)" class="st7 st1 st2">Age</text>
+<text transform="matrix(1 0 0 1 270.3112 382.4271)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 277.0363 382.4271)" class="st23 st1 st2">&lt;=</text>
+<text transform="matrix(1 0 0 1 290.4865 382.4271)" class="st7 st1 st2"> </text>
+<text transform="matrix(1 0 0 1 297.2116 382.4271)" class="st23 st1 st2">24</text>
+<text transform="matrix(1 0 0 1 310.6628 382.4271)" class="st7 st1 st2">]</text>
+<rect x="108.76" y="372.02" class="st11" width="355.68" height="13.61"/>
+<path class="st12" d="M464.44,378.82v5.2c0,0.88-0.51,1.6-1.13,1.6H109.89c-0.62,0-1.13-0.72-1.13-1.6v-10.41
+	c0-0.88,0.51-1.6,1.13-1.6h353.42c0.62,0,1.13,0.72,1.13,1.6V378.82z"/>
+<text transform="matrix(1 0 0 1 78.9768 289.9711)" class="st24 st1 st2">df:</text>
+<rect x="103.55" y="293.97" class="st25" width="17.61" height="19.21"/>
+<rect x="121.17" y="293.97" class="st25" width="74.44" height="19.21"/>
+<rect x="195.61" y="293.97" class="st25" width="29.22" height="19.21"/>
+<rect x="224.83" y="293.97" class="st25" width="49.23" height="19.21"/>
+<rect x="274.06" y="293.97" class="st25" width="24.41" height="19.21"/>
+<rect x="298.47" y="293.97" class="st25" width="53.63" height="19.21"/>
+<rect x="103.55" y="331.6" class="st25" width="17.61" height="18.81"/>
+<rect x="121.17" y="331.6" class="st25" width="74.44" height="18.81"/>
+<rect x="195.61" y="331.6" class="st25" width="29.22" height="18.81"/>
+<rect x="224.83" y="331.6" class="st25" width="49.23" height="18.81"/>
+<rect x="274.06" y="331.6" class="st25" width="24.41" height="18.81"/>
+<rect x="298.47" y="331.6" class="st25" width="53.63" height="18.81"/>
+<rect x="298.47" y="293.57" width="53.63" height="0.8"/>
+<rect x="274.06" y="293.57" width="24.41" height="0.8"/>
+<rect x="224.83" y="293.57" width="49.23" height="0.8"/>
+<rect x="195.61" y="293.57" width="29.22" height="0.8"/>
+<rect x="121.17" y="293.57" width="74.44" height="0.8"/>
+<rect x="103.55" y="293.57" width="17.61" height="0.8"/>
+<rect x="298.47" y="293.57" width="53.63" height="0.8"/>
+<rect x="274.06" y="293.57" width="24.41" height="0.8"/>
+<rect x="224.83" y="293.57" width="49.23" height="0.8"/>
+<rect x="195.61" y="293.57" width="29.22" height="0.8"/>
+<rect x="121.17" y="293.57" width="74.44" height="0.8"/>
+<rect x="103.55" y="293.57" width="17.61" height="0.8"/>
+<rect x="103.55" y="274.76" class="st11" width="364.4" height="87.25"/>
+<text transform="matrix(1 0 0 1 166.1965 287.5697)" class="st16 st17">Name</text>
+<text transform="matrix(1 0 0 1 198.8757 287.5697)" class="st16 st17">Rank</text>
+<text transform="matrix(1 0 0 1 234.7531 287.5697)" class="st16 st17">Position</text>
+<text transform="matrix(1 0 0 1 277.5886 287.5697)" class="st16 st17">Age</text>
+<text transform="matrix(1 0 0 1 301.7468 287.5697)" class="st16 st17">Nationality</text>
+<text transform="matrix(1 0 0 1 112.3352 307.5814)" class="st16 st17">2</text>
+<text transform="matrix(1 0 0 1 124.3825 306.7806)" class="st18 st17">Megan Rapinoe</text>
+<text transform="matrix(1 0 0 1 216.3103 306.7806)" class="st18 st17">3</text>
+<text transform="matrix(1 0 0 1 228.3654 306.7806)" class="st18 st17">Midﬁelder</text>
+<text transform="matrix(1 0 0 1 284.3508 306.7806)" class="st18 st17">34</text>
+<text transform="matrix(1 0 0 1 329.5183 306.7806)" class="st18 st17">USA</text>
+<text transform="matrix(1 0 0 1 109.6648 325.9926)" class="st16 st17">...</text>
+<text transform="matrix(1 0 0 1 184.1594 325.9926)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 213.6399 325.9926)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 262.8694 325.9926)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 287.0212 325.9926)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 340.8913 325.9926)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 106.9944 344.4037)" class="st16 st17">96</text>
+<text transform="matrix(1 0 0 1 136.3127 344.4037)" class="st18 st17">Cláudia Neto</text>
+<text transform="matrix(1 0 0 1 210.9695 344.4037)" class="st18 st17">97</text>
+<text transform="matrix(1 0 0 1 228.3654 344.4037)" class="st18 st17">Midﬁelder</text>
+<text transform="matrix(1 0 0 1 284.3508 344.4037)" class="st18 st17">31</text>
+<text transform="matrix(1 0 0 1 312.7937 344.4037)" class="st18 st17">Portugal</text>
+<text transform="matrix(1 0 0 1 103.6301 360.4135)"><tspan x="0" y="0" class="st18 st19">19 </tspan><tspan x="12.24" y="0" class="st18 st19">r</tspan><tspan x="15.02" y="0" class="st18 st19">ows </tspan></text>
+<polygon points="139.45,358.18 137.86,356.59 138.28,356.17 139.87,357.75 141.46,356.17 141.88,356.59 140.3,358.18 141.89,359.78 
+	141.47,360.2 139.87,358.6 138.27,360.2 137.85,359.78 "/>
+<text xml:space="preserve" transform="matrix(1 0 0 1 142.5051 360.4135)" class="st18 st19"> 5 columns</text>
+<rect x="103.55" y="274.76" class="st11" width="364.4" height="87.25"/>
+<text transform="matrix(1 0 0 1 78.9768 406.0404)" class="st24 st1 st2">df:</text>
+<rect x="103.55" y="410.04" class="st25" width="17.61" height="18.81"/>
+<rect x="121.17" y="410.04" class="st25" width="71.64" height="18.81"/>
+<rect x="192.81" y="410.04" class="st25" width="29.62" height="18.81"/>
+<rect x="222.43" y="410.04" class="st25" width="49.23" height="18.81"/>
+<rect x="271.66" y="410.04" class="st25" width="24.01" height="18.81"/>
+<rect x="295.67" y="410.04" class="st25" width="53.63" height="18.81"/>
+<rect x="103.55" y="447.67" class="st25" width="17.61" height="18.81"/>
+<rect x="121.17" y="447.67" class="st25" width="71.64" height="18.81"/>
+<rect x="192.81" y="447.67" class="st25" width="29.62" height="18.81"/>
+<rect x="222.43" y="447.67" class="st25" width="49.23" height="18.81"/>
+<rect x="271.66" y="447.67" class="st25" width="24.01" height="18.81"/>
+<rect x="295.67" y="447.67" class="st25" width="53.63" height="18.81"/>
+<rect x="295.67" y="409.64" width="53.63" height="0.8"/>
+<rect x="271.66" y="409.64" width="24.01" height="0.8"/>
+<rect x="222.43" y="409.64" width="49.23" height="0.8"/>
+<rect x="192.81" y="409.64" width="29.62" height="0.8"/>
+<rect x="121.17" y="409.64" width="71.64" height="0.8"/>
+<rect x="103.55" y="409.64" width="17.61" height="0.8"/>
+<rect x="295.67" y="409.64" width="53.63" height="0.8"/>
+<rect x="271.66" y="409.64" width="24.01" height="0.8"/>
+<rect x="222.43" y="409.64" width="49.23" height="0.8"/>
+<rect x="192.81" y="409.64" width="29.62" height="0.8"/>
+<rect x="121.17" y="409.64" width="71.64" height="0.8"/>
+<rect x="103.55" y="409.64" width="17.61" height="0.8"/>
+<rect x="103.55" y="390.83" class="st11" width="364.97" height="86.85"/>
+<text transform="matrix(1 0 0 1 163.4201 403.639)" class="st16 st17">Name</text>
+<text transform="matrix(1 0 0 1 196.0988 403.639)" class="st16 st17">Rank</text>
+<text transform="matrix(1 0 0 1 231.9768 403.639)" class="st16 st17">Position</text>
+<text transform="matrix(1 0 0 1 274.8117 403.639)" class="st16 st17">Age</text>
+<text transform="matrix(1 0 0 1 298.9709 403.639)" class="st16 st17">Nationality</text>
+<text transform="matrix(1 0 0 1 112.3352 423.6508)" class="st16 st17">3</text>
+<text transform="matrix(1 0 0 1 124.3821 422.851)"><tspan x="0" y="0" class="st18 st17">Ada Hegerbe</tspan><tspan x="56.57" y="0" class="st18 st17">r</tspan><tspan x="59.51" y="0" class="st18 st17">g</tspan></text>
+<text transform="matrix(1 0 0 1 213.5334 422.851)" class="st18 st17">4</text>
+<text transform="matrix(1 0 0 1 232.716 422.851)"><tspan x="0" y="0" class="st18 st17">Forwa</tspan><tspan x="26.67" y="0" class="st18 st17">r</tspan><tspan x="29.69" y="0" class="st18 st17">d</tspan></text>
+<text transform="matrix(1 0 0 1 281.5744 422.851)" class="st18 st17">24</text>
+<text transform="matrix(1 0 0 1 313.2351 422.851)" class="st18 st17">Norway</text>
+<text transform="matrix(1 0 0 1 109.6648 441.6615)" class="st16 st17">...</text>
+<text transform="matrix(1 0 0 1 181.383 441.6615)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 210.863 441.6615)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 260.0925 441.6615)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 284.2448 441.6615)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 338.114 441.6615)" class="st18 st17">...</text>
+<text transform="matrix(1 0 0 1 106.9944 460.474)" class="st16 st17">98</text>
+<text transform="matrix(1 0 0 1 127.2927 460.474)"><tspan x="0" y="0" class="st18 st17">Lena Obe</tspan><tspan x="41.82" y="0" class="st18 st17">r</tspan><tspan x="44.86" y="0" class="st18 st17">dorf</tspan></text>
+<text transform="matrix(1 0 0 1 208.1926 460.474)" class="st18 st17">99</text>
+<text transform="matrix(1 0 0 1 225.5886 460.474)" class="st18 st17">Midﬁelder</text>
+<text transform="matrix(1 0 0 1 281.5744 460.474)" class="st18 st17">17</text>
+<text transform="matrix(1 0 0 1 306.9812 460.474)" class="st18 st17">Germany</text>
+<text transform="matrix(1 0 0 1 103.6301 476.0834)"><tspan x="0" y="0" class="st18 st19">25 </tspan><tspan x="12.24" y="0" class="st18 st19">r</tspan><tspan x="15.02" y="0" class="st18 st19">ows </tspan></text>
+<polygon points="139.45,473.85 137.86,472.26 138.28,471.84 139.87,473.42 141.46,471.84 141.88,472.26 140.3,473.85 141.89,475.45 
+	141.47,475.87 139.87,474.27 138.27,475.87 137.85,475.45 "/>
+<text xml:space="preserve" transform="matrix(1 0 0 1 142.5051 476.0834)" class="st18 st19"> 5 columns</text>
+<rect x="103.55" y="390.83" class="st11" width="364.97" height="86.85"/>
+<rect x="5" y="250.75" class="st11" width="463.53" height="229.57"/>
+</svg>
