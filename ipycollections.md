@@ -8,6 +8,12 @@ sidebar:
       - label: "GitHub"
         icon: "fab fa-fw fa-github"
         url: "https://github.com/dataflownb/ipycollections-extension"
+      - label: "PyPI"
+        icon: "fab fa-fw fa-python"
+        url: "https://pypi.org/project/ipycollections/"
+      - label: "npm"
+        icon: "fab fa-fw fa-npm"
+        url: "https://www.npmjs.com/package/@dfnotebook/ipycollections-extension"
 ---
 
 ipycollections provides users more control over the detail of each output shown while preserving rich displays in collections. Like other tools and Jupyter's own JSON renderer, collections like lists and dictionaries can be summarized and truncated while allowing users to view more data. At the same time, outputs that are nested inside of these collections can now be richly displayed. Thus, we can have a list of images or dataframes displayed in a more meaningful format.
